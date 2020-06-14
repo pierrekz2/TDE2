@@ -1,0 +1,19 @@
+.group-profile{
+    background: #ffffff;
+}
+
+.group-profile h1 {
+    text-align: center;
+}
+
+.group-profile p {
+    padding: 0 30px;
+}
+
+.members {
+    padding: 5px 40px;
+    
+}
+.member li p {
+    color: #ffffff;
+}

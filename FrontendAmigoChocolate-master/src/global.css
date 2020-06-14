@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5 url(./assets/bg.png) no-repeat;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 200px auto 0;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    background: rgb(100, 60, 54);
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.content > h1 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #f0f0f5;
+}
+
+.content > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form > label {
+    font-size: 18px;
+    color: #f0f0f5;
+    margin-bottom: 10px;
+}
+
+.content form > input {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;   
+}
+
+.content button.btn {
+    border: 0;
+    border-radius: 20px;
+    width: 50%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #510B01;
+    color: #f0f0f5;
+    box-shadow: 10 10 100px rgba(0,0,0,0.1);
+
+}
+
+.content  a {
+    padding-top: 20px;
+    color: #f0f0f5;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.2s;
+}
+
+.content a svg {
+    margin-right: 8px;
+}
+
+.content a:hover {
+    opacity: 0.8;
+}

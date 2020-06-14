@@ -1,0 +1,71 @@
+.group-container ul{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+.group-container ul li{
+    background: #fff;
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+.group-container ul li p{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 0;
+    color: black;
+}
+.group-container ul li h3{
+    display: block;
+    padding-left: 50px;
+}
+.group-container ul li strong{
+    padding-left: 50px;
+    color: #737380;
+    line-height: 21px;
+    font-size: 12px;
+}
+.group-container ul li h1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 0;
+    color: black;
+}
+.log-out{
+    background: none;
+    position: absolute;
+    right: 750px;
+    top: 430px;
+    border: 0;
+}
+.log-out:hover{
+    opacity: 0.8;
+}
+.search-group{
+    background: none;
+    position: absolute;
+    right: 850px;
+    top: 430px;
+    border: 0;
+}
+.search-group:hover{
+    opacity: 0.8;
+}
+.content a{
+    width: fit-content; 
+}
+.perfil-user {
+    background: none;
+    position: absolute;
+    right: 800px;
+    top: 430px;
+    border: 0;
+}
+
+.perfil-user {
+    opacity: 0.8;
+}

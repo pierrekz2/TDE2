@@ -1,0 +1,18 @@
+ul{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+ul li{
+    color: black;
+    position: relative;
+}
+ul li input{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 45px;
+    padding: 10 15px;
+    font-size: 16px;   
+}
